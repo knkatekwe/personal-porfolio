@@ -34,7 +34,7 @@ export class ProjectsComponent implements OnInit {
     var filteredProjectlist = this.projects.filter((p) => {
       return p.category == searchTerm;
     });
-    console.log(filteredProjectlist);
+    //console.log(filteredProjectlist);
     this.projectsList = filteredProjectlist;
     return this.projectsList;
   }
