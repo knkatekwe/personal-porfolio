@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "author": "John Johnson",
+    "quote": "First, solve the problem. Then, write the code."
+  },
+  {
+    "id": 6,
+    "author": "Milton Glaser",
+    "quote": "There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for"
+  },
+  {
+    "id": 5,
+    "author": "Cameron Moll",
+    "quote": "What separates design from art is that design is meant to be... functional."
+  },
+  {
+    "id": 3,
+    "author": "Jeff Atwood",
+    "quote": "We have to stop optimizing for programmers and start optimizing for users."
+  },
+  {
+    "id": 4,
+    "author": "Mark Zuckerberg",
+    "quote": "People don't care about what you say, they care about what you build."
+  },
+  {
+    "id": 7,
+    "author": "Antonie De-Saint Exupery",
+    "quote": "A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away"
+  }
+]

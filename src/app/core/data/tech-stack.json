@@ -1,0 +1,19 @@
+{
+    "title": "Tech Stack",
+    "description": "Here are a few of the design tools I've worked with over the past 5 years as a Full-Stack Developer_",
+    "techStacks": [
+        { "path": "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_9d63a0ed04b871d3dacc8647b7f0927d/spring-boot.png" },
+        { "path": "https://www.htmlgoodies.com/wp-content/uploads/2021/07/Angular-JavaScript.png" },
+        { "path": "https://docs.nestjs.com/assets/logo-small.svg" },
+        { "path": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png" },
+        { "path": "https://masteringjs.io/assets/images/vue/vue-transparent.png" },
+        { "path": "https://www.nicepng.com/png/detail/891-8917805_create-adaptive-icons-for-ionic-cordova-applications-ionic.png" },
+        { "path": "https://herve.beraud.io/images/blog/rabbitmq.png" },
+        { "path": "https://codefactorygroup.com/wp-content/uploads/2021/05/apache-kafka.png" },
+        { "path": "https://s.w.org/style/images/about/WordPress-logotype-wmark.png" },
+        { "path": "https://a.slack-edge.com/80588/img/services/jenkins-ci_512.png" },
+        { "path": "https://papercut.wpengine.com/wp-content/uploads/2019/02/docker-logo-1024x597.png" },
+        { "path": "https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_400x400.jpg" },
+        { "path": "https://labs.onb.ac.at/static/img/tools/contribute/gitlab-logo.svg" }
+      ]
+}

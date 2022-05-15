@@ -1,0 +1,21 @@
+<!--Testimonials-->
+<div id="testimonials" class="section">
+  <div class="background slider-carousel" style="background-image: url(assets/img/thoughts.svg);">
+    <div class="container" style="min-height: 280px;">
+      <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let quote of quotes">
+          <ng-template carouselSlide [id]="quote.id">
+            <div class="row">
+              <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
+                <p class="slider-carousel__title">{{quote.author}}</p>
+                <hr>
+                <p class="slider-carousel__description">{{quote.quote}} </p>
+              </div>
+            </div>
+          </ng-template>
+        </ng-container>
+      </owl-carousel-o>
+    </div>
+  </div>
+</div>
+<!--Testimonials-->

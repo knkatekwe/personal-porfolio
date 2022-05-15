@@ -1,0 +1,30 @@
+<!--Resume-->
+<section id="resume" class="container section">
+    <div class="row">
+        <div class="col-md-10">
+            <h2 id="resume_header" class="section__title">{{services.title}}_</h2>
+            <p class="section__description">
+                {{services.description}}
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="h-100">
+            <div class="row align-middle mt-4">
+                <div class="col-md-6 col-lg-4 column" *ngFor="let service of services.services">
+                    <div class="card service-card">
+                        <div class="txt">
+                            <h1>{{service.title}}</h1>
+                                <p>{{service.description}}</p>
+                        </div>
+                        <a href="#">more</a>
+                        <div class="ico-card">
+                            <i class="fa fa-terminal"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Resume-->

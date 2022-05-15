@@ -1,0 +1,26 @@
+[
+  {
+    "projectTitle": "My Data Rights",
+    "category": "website",
+    "projectDescription": "...",
+    "image": "assets/img/mydatarights.png",
+    "stackUsed": ["Wordpress", "Advanced Custom Fields"],
+    "projectLink": "https://www.mydatarights.africa/"
+  },
+  {
+    "projectTitle": "Abidia Engineers",
+    "category": "website",
+    "projectDescription": "...",
+    "image": "assets/img/abidia.png",
+    "stackUsed": ["Wordpress", "Elementor"],
+    "projectLink": "https://www.abidia.co.za/"
+  },
+  {
+    "projectTitle": "VTECH HEALTH",
+    "category": "website",
+    "projectDescription": "...",
+    "image": "https://via.placeholder.com/728x500.png?text=Website",
+    "stackUsed": ["Wordpress", "Elementor", "WooCommerce"],
+    "projectLink": "https://vtechhealth.co.za/"
+  }
+]

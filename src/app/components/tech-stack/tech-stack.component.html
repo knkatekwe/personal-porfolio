@@ -1,0 +1,23 @@
+<!--Hello-->
+<section id="tech-stack" class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 id="hello_header" class="section__title">{{techStacks.title}}_</h2>
+            <p class="section__description">
+                {{techStacks.description}}
+            </p>
+            <owl-carousel-o [options]="customOptions">
+                <ng-container *ngFor="let tech of techStacks.techStacks">
+                  <ng-template carouselSlide [id]="tech?.path">
+                    <div class="row">
+                      <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto image">
+                        <img class="img-fluid" [src]="tech?.path" />
+                      </div>
+                    </div>
+                  </ng-template>
+                </ng-container>
+              </owl-carousel-o>
+        </div>
+    </div>
+</section>
+<!--Hello-->

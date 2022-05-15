@@ -1,0 +1,36 @@
+{
+    "fullName": "Kumbirai Nigel Katekwe",
+    "professionTitle": "Full-Stack Developer",
+    "email": "nigelkatekwe@gmail.com",
+    "phone": "+263(0) 776 011 200",
+    "address": "Harare, Zimbabwe",
+    "professionalSocials": [
+        {
+            "link-text": "LinkedIn",
+            "link": "",
+            "icon-class": ""
+        },
+        {
+            "link-text": "GitHub",
+            "link": "",
+            "icon-class": ""
+        },
+        {
+            "link-text": "GitLab",
+            "link": "",
+            "icon-class": ""
+        }
+    ],
+    "personalSocials": [
+        {
+            "link-text": "Facebook",
+            "link": "",
+            "icon-class": ""
+        },
+        {
+            "link-text": "Twitter",
+            "link": "",
+            "icon-class": ""
+        }
+    ]
+}

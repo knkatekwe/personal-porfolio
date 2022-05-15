@@ -1,0 +1,21 @@
+{
+  "title": "Services",
+  "description": "Here are a few areas where I can assist you with your personal & business projects_",
+  "services": [
+    {
+      "title": "Web UI & UX Development",
+      "description": "I enjoy coming up with simple content structure, clean design patterns, and thoughtful interactions for the browser.",
+      "button-text": "Read more"
+    },
+    {
+      "title": "Mobile App Development",
+      "description": "I enjoy writing code from scratch and bringing ideas to life through the mobile devices.",
+      "button-text": "Read more"
+    },
+    {
+      "title": "Backend API Development",
+      "description": "I value the importance of application business logic, and enjoy bringing it to life from the backend.",
+      "button-text": "Read more"
+    }
+  ]
+}

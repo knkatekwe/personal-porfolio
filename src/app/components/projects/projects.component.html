@@ -1,0 +1,53 @@
+<!--Portfolio-->
+<section id="portfolio" class="container section">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 id="portfolio_header" class="section__title">Recent projects_</h2>
+    </div>
+  </div>
+  <div class="row portfolio-menu">
+    <div class="col-md-12">
+      <nav>
+        <ul>
+          <li><a [routerLink]="['']" (click)="filterProjects('')">all</a></li>
+          <li><a [routerLink]="['']" (click)="filterProjects('mobile app')">mobile apps</a></li>
+          <li><a [routerLink]="['']" (click)="filterProjects('website')">web-sites</a></li>
+          <!-- <li><a href="" data-portfolio-target-tag="landing-pages">landing pages</a></li> -->
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="portfolio-cards">
+    <div class="row">
+      <ng-container *ngFor="let project of projectsList | paginate: config">
+        <div class="row project-card" data-toggle="modal">
+          <div class="col-md-6 col-lg-5 project-card__img">
+            <img class="img-fluid" [src]="project.image" alt="project-img">
+          </div>
+          <div class="col-md-6 col-lg-7 project-card__info">
+            <h3 class="project-card__title">{{ project.projectTitle }}</h3>
+            <p class="project-card__description">
+              {{ project.projectDescription }}
+            </p>
+            <p class="project-card__stack">Used stack:</p>
+            <ul class="tags">
+              <li *ngFor="let stack of project.stackUsed">{{stack}}</li>
+            </ul>
+            <a [href]="project.projectLink" target="_blank" class="project-card__link">{{project.projectLink}}</a>
+          </div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="projectsList?.length == 0">
+        <span class="ml-3">Oops no projects to display...</span><br>
+      </ng-container>
+      <ng-container *ngIf="projectsList?.length !== 0">
+        <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+      </ng-container>
+      
+
+    </div>
+  </div>
+</section>
+<!--Portfolio-->
+
+<!-- <pre>{{ projects | json }}</pre> -->

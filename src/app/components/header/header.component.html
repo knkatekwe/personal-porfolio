@@ -1,0 +1,35 @@
+<header class="main-header" style="background-image: url(assets/img/solutions.svg)">
+    <!-- <ng-particles id="tsparticles" [options]="particlesOptions"> -->
+    <div class="container">
+        <div class="row personal-profile">
+            <div class="col-md-4 personal-profile__avatar">
+                <img class=""
+                    src="../../../assets/img/IMG_4830.JPG"
+                    alt="avatar">
+            </div>
+            <div class="col-md-8">
+                <p class="personal-profile__name">{{personalDetail.fullName}}_</p>
+                <p class="personal-profile__work">{{personalDetail.professionTitle}}</p>
+                <div class="personal-profile__contacts">
+                    <dl class="contact-list contact-list__opacity-titles">
+                        <!-- <dt>Age:</dt>
+                            <dd>23</dd> -->
+                        <dt>Phone:</dt>
+                        <dd><a href="tel:+263776011200">{{personalDetail.phone}}</a></dd>
+                        <dt>Email:</dt>
+                        <dd><a href="mailto:nigelkatekwe@gmail.com">{{personalDetail.email}}</a></dd>
+                        <dt>Address:</dt>
+                        <dd>{{personalDetail.address}}</dd>
+                    </dl>
+                </div>
+                <p class="personal-profile__social">
+                    <a href="https://github.com/knkatekwe" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/knkatekwe/" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href="https://twitter.com/n1g3l101" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- </ng-particles> -->
+</header>
