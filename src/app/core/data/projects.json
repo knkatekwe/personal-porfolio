@@ -22,5 +22,13 @@
     "image": "https://via.placeholder.com/728x500.png?text=Website",
     "stackUsed": ["Wordpress", "Elementor", "WooCommerce"],
     "projectLink": "https://vtechhealth.co.za/"
+  },
+  {
+    "projectTitle": "Timeless Accounting",
+    "category": "website",
+    "projectDescription": "...",
+    "image": "https://via.placeholder.com/728x500.png?text=Website",
+    "stackUsed": ["Wordpress", "Elementor", "WooCommerce"],
+    "projectLink": "https://timelessaccounting.co.za/"
   }
 ]
